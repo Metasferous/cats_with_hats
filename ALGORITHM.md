@@ -6,7 +6,7 @@ finding the way to calculate state (presence of hat) of every cat without actual
 should be enough and may be more efficient than O(n * log(n)) complexity of brute iterating  
 
 I state complexity as O(n * log(n)) assuming that switching operation has complexity O(1)   
-asn brute iterating requies n loops with number of iterations in all loops   
+and brute iterating requies n loops with number of iterations in all loops   
 equal to n multiplied by sum of first n elements  
 of harmonic series or 1/1 + 1/2 + 1/3 + 1/4 + ... + 1/n  
 Pseudocode example:  
