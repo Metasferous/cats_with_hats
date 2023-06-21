@@ -10,11 +10,13 @@ asn brute iterating requies n loops with number of iterations in all loops
 equal to n multiplied by sum of first n elements
 of harmonic series or 1/1 + 1/2 + 1/3 + 1/4 + ... + 1/n
 Pseudocode example:
+'''python
   for i in range(1, n + 1):     <- n loops
     j = 1
     while j * i <= n:           <- n / i iterations
       switch_hat_on_cat(j * i)  
       j += 1
+'''
 
 By using the Eulers aproximation of harmonic series we may calculate
 approximate total number of iterations is gonna be close to n * (log(n) + γ)
