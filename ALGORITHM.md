@@ -11,9 +11,9 @@ equal to n multiplied by sum of first n elements
 of harmonic series or 1/1 + 1/2 + 1/3 + 1/4 + ... + 1/n
 Pseudocode example:
 ```python
-  for i in range(1, n + 1):     <- n loops
+  for i in range(1, n + 1):     # n loops
     j = 1
-    while j * i <= n:           <- n / i iterations
+    while j * i <= n:           # n / i iterations
       switch_hat_on_cat(j * i)  
       j += 1
 ```
@@ -37,11 +37,12 @@ Example:
 For 32 pairs of divisors are 1 and 32, 2 and 16, 4 and 8
 For 36 pairs of divisors are 1 and 36, 2 and 18, 3 and 12, 4 and 9, 6 and 6
 Therefore we may calculate and return just №'s of cats which are equal to squares of natural numbers within range from 1 to n
+```python
   x = 1
   while x^2 <= n:
     add_cat_number_to_list(x^2)
     x += 1
-
+```
 That algorithm is gonna a number of iterations equal to amount of squares between 2 and n
 We may approximate amount of squares in range from a to b using formula:
 squares_amount = square_root(b) - square_root(a - 1)
