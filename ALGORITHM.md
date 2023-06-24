@@ -20,7 +20,7 @@ Pseudocode example:
 
 By using the Eulers aproximation of harmonic series we may calculate  
 approximate total number of iterations is gonna be close to n * (log(n) + γ)  
-Therefore algorithm's is O(n * log(n))  
+Therefore algorithm's complexity is O(n * log(n))  
 Where 'γ' is Euler-Mascheroni constant  
 
 
